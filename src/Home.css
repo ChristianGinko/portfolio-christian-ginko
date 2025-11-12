@@ -1,0 +1,50 @@
+.Home {
+  background-color: aquamarine;
+  height: 50rem;
+}
+
+.Presentacion {
+  align-items: center;
+  justify-content: center;
+  background-image: url("./codigo fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+
+.Horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+  width: 60%;
+}
+
+.Vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+.Nombre {
+  font-family: 'Lucida Sans';
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.Profesion {
+  font-family: Arial;
+  font-style: italic;
+  margin-top: 0rem;
+}
+
+.FotoPerfil {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
