@@ -105,3 +105,30 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+.Row, .DobleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;      /* evita que una columna quede más abajo */
+  gap: 40px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.Datos, .DobleDatos {
+  flex: 1;                     /* ambas columnas ocuparán el mismo ancho */
+  min-width: 300px;            /* evita que colapsen en pantallas chicas */
+}
+
+.Contacto, .DobleContacto {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;                    /* espaciado uniforme entre cada línea */
+  padding-left: 10px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
