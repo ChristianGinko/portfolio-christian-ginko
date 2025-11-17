@@ -28,13 +28,13 @@ function Home() {
         <div className="Datos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Habilidades técnicas</p>
           <div className="Contacto">
-            <li><a style={{fontWeight: 'bold'}}>Lenguajes:</a> Kotlin, Java, ReactJS</li>
-            <li><a style={{fontWeight: 'bold'}}>Frameworks:</a> Jetpack Compose, Spring Boot</li>
-            <li><a style={{fontWeight: 'bold'}}>Arquitectura:</a> MVVM</li>
-            <li><a style={{fontWeight: 'bold'}}>Librerías:</a> Retrofit, Room, Coil</li>
-            <li><a style={{fontWeight: 'bold'}}>Control de versiones:</a> Git, GitHub</li>
-            <li><a style={{fontWeight: 'bold'}}>Pruebas:</a> Corrutinas, APIs, APIs RESTful</li>
-            <li><a style={{fontWeight: 'bold'}}>Testing:</a> Caja blanca y caja negra</li>
+            <li><span style={{fontWeight: 'bold'}}>Lenguajes:</span> Kotlin, Java, ReactJS</li>
+            <li><span style={{fontWeight: 'bold'}}>Frameworks:</span> Jetpack Compose, Spring Boot</li>
+            <li><span style={{fontWeight: 'bold'}}>Arquitectura:</span> MVVM</li>
+            <li><span style={{fontWeight: 'bold'}}>Librerías:</span> Retrofit, Room, Coil</li>
+            <li><span style={{fontWeight: 'bold'}}>Control de versiones:</span> Git, GitHub</li>
+            <li><span style={{fontWeight: 'bold'}}>Pruebas:</span> Corrutinas, APIs, APIs RESTful</li>
+            <li><span style={{fontWeight: 'bold'}}>Testing:</span> Caja blanca y caja negra</li>
           </div>
         </div>
         <div className="Datos">
@@ -42,11 +42,11 @@ function Home() {
           <div className="Contacto">
             <li>
               <div className="Contacto">
-                <a style={{fontWeight: 'bold'}}>QA Manual - uTest <a style={{fontStyle: 'italic'}}>(Septiembre 2022 - Agosto 2024)</a></a>
-                <a>- Realización de pruebas de regresión y validación.</a>
-                <a>- Ejecución de pruebas de sistema.</a>
-                <a>- Diseño y documentación de casos de prueba.</a>
-                <a>- Aplicación de metodologías de caja blanca y negra.</a>
+                <span style={{fontWeight: 'bold'}}>QA Manual - uTest <span style={{fontStyle: 'italic'}}>(Septiembre 2022 - Agosto 2024)</span></span>
+                <span>- Realización de pruebas de regresión y validación.</span>
+                <span>- Ejecución de pruebas de sistema.</span>
+                <span>- Diseño y documentación de casos de prueba.</span>
+                <span>- Aplicación de metodologías de caja blanca y negra.</span>
               </div>
             </li>
           </div>
@@ -57,12 +57,12 @@ function Home() {
         <div className="DobleDatos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Datos de contacto</p>
           <div className="DobleContacto">
-            <li><a style={{fontWeight: 'bold'}}>Teléfono:</a> +54 9 1151560006</li>
-            <li><a style={{fontWeight: 'bold'}}>Email:</a> christianginko@gmail.com</li>
-            <li><a style={{fontWeight: 'bold'}}>Instagram:</a> <a href="https://www.instagram.com/christianginko/">christianginko</a></li>
-            <li><a style={{fontWeight: 'bold'}}>Twitter:</a> <a href="https://x.com/CGinko">CGinko</a></li>
-            <li><a style={{fontWeight: 'bold'}}>Linkedin:</a> <a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a></li>
-            <li><a style={{fontWeight: 'bold'}}>GitHub:</a> <a href="https://github.com/ChristianGinko">ChristianGinko</a></li>
+            <li><span style={{fontWeight: 'bold'}}>Teléfono:</span> +54 9 1151560006</li>
+            <li><span style={{fontWeight: 'bold'}}>Email:</span> christianginko@gmail.com</li>
+            <li><span style={{fontWeight: 'bold'}}>Instagram:</span> <a href="https://www.instagram.com/christianginko/">christianginko</a></li>
+            <li><span style={{fontWeight: 'bold'}}>Twitter:</span> <a href="https://x.com/CGinko">CGinko</a></li>
+            <li><span style={{fontWeight: 'bold'}}>Linkedin:</span> <a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a></li>
+            <li><span style={{fontWeight: 'bold'}}>GitHub:</span> <a href="https://github.com/ChristianGinko">ChristianGinko</a></li>
           </div>
         </div>
         <div className="DobleDatos">
@@ -81,14 +81,14 @@ function Home() {
           <div className="TripleContacto">
             <li>
               <div className="Contacto">
-                <a style={{fontWeight: 'bold'}}>Bachiller en Bienes y Servicios</a>
-                <a style={{fontStyle: 'italic'}}>EET N°9, Lanús, Buenos Aires | Marzo 2007 - Diciembre 2012</a>
+                <span style={{fontWeight: 'bold'}}>Bachiller en Bienes y Servicios</span>
+                <span style={{fontStyle: 'italic'}}>EET N°9, Lanús, Buenos Aires | Marzo 2007 - Diciembre 2012</span>
               </div>
             </li>
             <li>
               <div className="Contacto">
-                <a style={{fontWeight: 'bold'}}>First Certificate in English</a>
-                <a style={{fontStyle: 'italic'}}>University of Cambridge | Marzo 2013 - Octubre 2014</a>
+                <span style={{fontWeight: 'bold'}}>First Certificate in English</span>
+                <span style={{fontStyle: 'italic'}}>University of Cambridge | Marzo 2013 - Octubre 2014</span>
               </div>
             </li>
           </div>
@@ -96,8 +96,8 @@ function Home() {
         <div className="TripleDatos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Idiomas</p>
           <div className="TripleContacto">
-            <li><a style={{fontWeight: 'bold'}}>Español: </a>Nativo</li>
-            <li><a style={{fontWeight: 'bold'}}>Inglés: </a> Intermedio</li>
+            <li><span style={{fontWeight: 'bold'}}>Español: </span>Nativo</li>
+            <li><span style={{fontWeight: 'bold'}}>Inglés: </span> Intermedio</li>
           </div>
         </div>
       </div>
