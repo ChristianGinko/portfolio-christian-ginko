@@ -57,7 +57,6 @@ function Home() {
         <div className="DobleDatos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Datos de contacto</p>
           <div className="DobleContacto">
-            <li><span style={{fontWeight: 'bold'}}>Teléfono:</span> +54 9 1151560006</li>
             <li><span style={{fontWeight: 'bold'}}>Email:</span> christianginko@gmail.com</li>
             <li><span style={{fontWeight: 'bold'}}>Instagram:</span> <a href="https://www.instagram.com/christianginko/">christianginko</a></li>
             <li><span style={{fontWeight: 'bold'}}>Twitter:</span> <a href="https://x.com/CGinko">CGinko</a></li>
