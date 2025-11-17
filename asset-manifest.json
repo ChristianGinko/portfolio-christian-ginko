@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-christian-ginko/static/css/main.573673d6.css",
-    "main.js": "/portfolio-christian-ginko/static/js/main.1f51e8c9.js",
+    "main.js": "/portfolio-christian-ginko/static/js/main.68f60d0e.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/Christian Ginko.jpg": "/portfolio-christian-ginko/static/media/Christian Ginko.34450f166a1d8c03d6d0.jpg",
     "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
     "index.html": "/portfolio-christian-ginko/index.html",
     "main.573673d6.css.map": "/portfolio-christian-ginko/static/css/main.573673d6.css.map",
-    "main.1f51e8c9.js.map": "/portfolio-christian-ginko/static/js/main.1f51e8c9.js.map",
+    "main.68f60d0e.js.map": "/portfolio-christian-ginko/static/js/main.68f60d0e.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.573673d6.css",
-    "static/js/main.1f51e8c9.js"
+    "static/js/main.68f60d0e.js"
   ]
 }
