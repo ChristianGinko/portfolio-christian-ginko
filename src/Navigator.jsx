@@ -3,7 +3,7 @@ import Home from './Home.js';
 
 function Navigator() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio-christian-ginko">
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
