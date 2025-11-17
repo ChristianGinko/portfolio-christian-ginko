@@ -74,6 +74,33 @@ function Home() {
           </div>
         </div>
       </div>
+      <hr className="Divider" />
+      <div className="TripleRow">
+        <div className="TripleDatos">
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Formación académica</p>
+          <div className="TripleContacto">
+            <li>
+              <div className="Contacto">
+                <a style={{fontWeight: 'bold'}}>Bachiller en Bienes y Servicios</a>
+                <a style={{fontStyle: 'italic'}}>EET N°9, Lanús, Buenos Aires | Marzo 2007 - Diciembre 2012</a>
+              </div>
+            </li>
+            <li>
+              <div className="Contacto">
+                <a style={{fontWeight: 'bold'}}>First Certificate in English</a>
+                <a style={{fontStyle: 'italic'}}>University of Cambridge | Marzo 2013 - Octubre 2014</a>
+              </div>
+            </li>
+          </div>
+        </div>
+        <div className="TripleDatos">
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Idiomas</p>
+          <div className="TripleContacto">
+            <li><a style={{fontWeight: 'bold'}}>Español: </a>Nativo</li>
+            <li><a style={{fontWeight: 'bold'}}>Inglés: </a> Intermedio</li>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -46,6 +46,14 @@
   gap: 20rem;
 }
 
+.TripleRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 20rem;
+}
+
 .Datos {
   margin-left: 2rem;
   display: flex;
@@ -60,6 +68,13 @@
   align-items: center;
 }
 
+.TripleDatos {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Contacto {
   display: flex;
   flex-direction: column;
@@ -67,6 +82,12 @@
 }
 
 .DobleContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.TripleContacto {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -106,7 +127,7 @@
   object-fit: cover;
 }
 
-.Row, .DobleRow {
+.Row, .DobleRow, .TripleRow {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -116,12 +137,12 @@
   padding: 20px 0;
 }
 
-.Datos, .DobleDatos {
+.Datos, .DobleDatos, .TripleDatos {
   flex: 1;
   min-width: 300px;
 }
 
-.Contacto, .DobleContacto {
+.Contacto, .DobleContacto, .TripleContacto {
   display: flex;
   flex-direction: column;
   gap: 6px;
