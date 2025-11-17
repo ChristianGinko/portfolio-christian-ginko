@@ -17,7 +17,7 @@ function Home() {
       <div className="Cuerpo">
         <h2 style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', textDecoration: 'underline'}}>Sobre mí</h2>
         <p style={{fontFamily: 'Arial', fontStyle: 'oblique'}}>
-          Desarrollador de software con experiencia en Kotlin, Jetpack Compose, ReactJS y Java, entre otras tecnologías. Apasionado por la tecnología, disfruto participar
+          Desarrollador de software con experiencia en Kotlin, Jetpack Compose, React.js y Java, entre otras tecnologías. Apasionado por la tecnología, disfruto participar
           activamente en proyectos, aprender de cada etapa y aportar soluciones con mis conocimientos. Busco
           seguir creciendo profesionalmente, incorporando nuevas tecnologías y compartiendo saberes en entornos
           colaborativos.
@@ -28,7 +28,7 @@ function Home() {
         <div className="Datos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Habilidades técnicas</p>
           <div className="Contacto">
-            <li><span style={{fontWeight: 'bold'}}>Lenguajes:</span> Kotlin, Java, ReactJS</li>
+            <li><span style={{fontWeight: 'bold'}}>Lenguajes:</span> Kotlin, Java, React.js</li>
             <li><span style={{fontWeight: 'bold'}}>Frameworks:</span> Jetpack Compose, Spring Boot</li>
             <li><span style={{fontWeight: 'bold'}}>Arquitectura:</span> MVVM</li>
             <li><span style={{fontWeight: 'bold'}}>Librerías:</span> Retrofit, Room, Coil</li>
