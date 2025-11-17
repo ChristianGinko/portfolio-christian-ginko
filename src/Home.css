@@ -110,21 +110,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;      /* evita que una columna quede más abajo */
+  align-items: flex-start;
   gap: 40px;
   width: 100%;
   padding: 20px 0;
 }
 
 .Datos, .DobleDatos {
-  flex: 1;                     /* ambas columnas ocuparán el mismo ancho */
-  min-width: 300px;            /* evita que colapsen en pantallas chicas */
+  flex: 1;
+  min-width: 300px;
 }
 
 .Contacto, .DobleContacto {
   display: flex;
   flex-direction: column;
-  gap: 6px;                    /* espaciado uniforme entre cada línea */
+  gap: 6px;
   padding-left: 10px;
 }
 
