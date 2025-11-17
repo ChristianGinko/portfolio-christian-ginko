@@ -1,6 +1,8 @@
 .Home {
   background-color: aquamarine;
-  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
 }
 
 .Presentacion {
@@ -21,6 +23,61 @@
   gap: 2rem;
   height: 100%;
   width: 60%;
+}
+
+.Cuerpo {
+  margin-left: 1rem;
+  color: black;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.DobleRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.Datos {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DobleDatos {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.DobleContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Divider {
+  height: 2px;
+  background-color: green;
+  border: none;
+  width: 100%;
+  margin: 24px 0;
 }
 
 .Vertical {
