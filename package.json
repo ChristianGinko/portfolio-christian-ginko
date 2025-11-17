@@ -2,7 +2,7 @@
   "name": "portfolio-christian-ginko",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ChristianGinko.github.io/portfolio-christian-ginko",
+  "homepage": "https://christianginko.github.io/portfolio-christian-ginko",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
