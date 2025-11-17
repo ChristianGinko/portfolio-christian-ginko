@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a9f7f0c9.css",
-    "main.js": "/portfolio/static/js/main.7900b20d.js",
-    "static/js/453.6c8f7dd0.chunk.js": "/portfolio/static/js/453.6c8f7dd0.chunk.js",
-    "static/media/Christian Ginko.jpg": "/portfolio/static/media/Christian Ginko.34450f166a1d8c03d6d0.jpg",
-    "static/media/codigo fondo.jpg": "/portfolio/static/media/codigo fondo.f411514c876c376d3014.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.a9f7f0c9.css.map": "/portfolio/static/css/main.a9f7f0c9.css.map",
-    "main.7900b20d.js.map": "/portfolio/static/js/main.7900b20d.js.map",
-    "453.6c8f7dd0.chunk.js.map": "/portfolio/static/js/453.6c8f7dd0.chunk.js.map"
+    "main.css": "/portfolio-christian-ginko/static/css/main.573673d6.css",
+    "main.js": "/portfolio-christian-ginko/static/js/main.29f09d8b.js",
+    "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
+    "static/media/Christian Ginko.jpg": "/portfolio-christian-ginko/static/media/Christian Ginko.34450f166a1d8c03d6d0.jpg",
+    "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
+    "index.html": "/portfolio-christian-ginko/index.html",
+    "main.573673d6.css.map": "/portfolio-christian-ginko/static/css/main.573673d6.css.map",
+    "main.29f09d8b.js.map": "/portfolio-christian-ginko/static/js/main.29f09d8b.js.map",
+    "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9f7f0c9.css",
-    "static/js/main.7900b20d.js"
+    "static/css/main.573673d6.css",
+    "static/js/main.29f09d8b.js"
   ]
 }
