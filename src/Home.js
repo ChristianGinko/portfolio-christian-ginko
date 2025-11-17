@@ -15,7 +15,7 @@ function Home() {
         </div>
       </div>
       <div className="Cuerpo">
-        <h2 style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold'}}>Sobre mí</h2>
+        <h2 style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', textDecoration: 'underline'}}>Sobre mí</h2>
         <p style={{fontFamily: 'Arial', fontStyle: 'oblique'}}>
           Desarrollador de software con experiencia en Kotlin, Jetpack Compose, ReactJS y Java, entre otras tecnologías. Apasionado por la tecnología, disfruto participar
           activamente en proyectos, aprender de cada etapa y aportar soluciones con mis conocimientos. Busco
@@ -26,7 +26,7 @@ function Home() {
       <hr className="Divider" />
       <div className="Row">
         <div className="Datos">
-          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Habilidades técnicas</p>
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Habilidades técnicas</p>
           <div className="Contacto">
             <li><span style={{fontWeight: 'bold'}}>Lenguajes:</span> Kotlin, Java, ReactJS</li>
             <li><span style={{fontWeight: 'bold'}}>Frameworks:</span> Jetpack Compose, Spring Boot</li>
@@ -38,7 +38,7 @@ function Home() {
           </div>
         </div>
         <div className="Datos">
-          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Experiencia laboral</p>
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Experiencia laboral</p>
           <div className="Contacto">
             <li>
               <div className="Contacto">
@@ -55,7 +55,7 @@ function Home() {
       <hr className="Divider" />
       <div className="DobleRow">
         <div className="DobleDatos">
-          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Datos de contacto</p>
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Datos de contacto</p>
           <div className="DobleContacto">
             <li><span style={{fontWeight: 'bold'}}>Teléfono:</span> +54 9 1151560006</li>
             <li><span style={{fontWeight: 'bold'}}>Email:</span> christianginko@gmail.com</li>
@@ -66,7 +66,7 @@ function Home() {
           </div>
         </div>
         <div className="DobleDatos">
-          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Proyectos</p>
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Proyectos</p>
           <div className="DobleContacto">
             <li><a style={{fontWeight: 'bold'}} href="https://github.com/ChristianGinko/Pokedex/tree/repositorio">PokeApi</a></li>
             <li><a style={{fontWeight: 'bold'}} href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">Pokédex</a></li>
@@ -77,7 +77,7 @@ function Home() {
       <hr className="Divider" />
       <div className="TripleRow">
         <div className="TripleDatos">
-          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Formación académica</p>
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Formación académica</p>
           <div className="TripleContacto">
             <li>
               <div className="Contacto">
@@ -94,7 +94,7 @@ function Home() {
           </div>
         </div>
         <div className="TripleDatos">
-          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic'}}>Idiomas</p>
+          <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Idiomas</p>
           <div className="TripleContacto">
             <li><span style={{fontWeight: 'bold'}}>Español: </span>Nativo</li>
             <li><span style={{fontWeight: 'bold'}}>Inglés: </span> Intermedio</li>
