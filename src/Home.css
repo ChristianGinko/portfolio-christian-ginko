@@ -6,6 +6,8 @@
   height: 100%;
 }
 
+/* --- PRESENTACIÓN --- */
+
 .Presentacion {
   align-items: center;
   justify-content: center;
@@ -26,101 +28,11 @@
   width: 60%;
 }
 
-.Cuerpo {
-  padding: 1rem;
-  color: black;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.Row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  gap: 15rem;
-}
-
-.DobleRow {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  gap: 20rem;
-}
-
-.TripleRow {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  gap: 20rem;
-}
-
-.Datos {
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.DobleDatos {
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.TripleDatos {
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.DobleContacto {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.TripleContacto {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.Divider {
-  height: 2px;
-  background-color: green;
-  border: none;
-  width: 100%;
-  margin: 24px 0;
-}
-
 .Vertical {
   display: flex;
   flex-direction: column;
   align-items: start;
   color: white;
-}
-
-.Nombre {
-  font-family: 'Lucida Sans';
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-.Profesion {
-  font-family: Arial;
-  font-style: italic;
-  margin-top: 0rem;
 }
 
 .FotoPerfil {
@@ -130,29 +42,127 @@
   object-fit: cover;
 }
 
-.Row, .DobleRow, .TripleRow {
+/* --- CUERPO --- */
+
+.Cuerpo {
+  padding: 1rem 3rem;
+  color: black;
+}
+
+/* --- MULTICOLUMNAS --- */
+
+.Row,
+.DobleRow,
+.TripleRow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
+  justify-content: center;
+  gap: 4rem;
   width: 100%;
   padding: 20px 0;
+  flex-wrap: wrap; /* << IMPORTANTE para que no se rompa en celular */
 }
 
-.Datos, .DobleDatos, .TripleDatos {
+.Datos,
+.DobleDatos,
+.TripleDatos {
   flex: 1;
-  min-width: 300px;
+  min-width: 260px; /* << más chico para celular */
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.Contacto, .DobleContacto, .TripleContacto {
+.Contacto,
+.DobleContacto,
+.TripleContacto {
   display: flex;
   flex-direction: column;
   gap: 6px;
   padding-left: 10px;
+  align-items: start;
 }
+
+/* --- DIVIDER --- */
+
+.Divider {
+  height: 2px;
+  background-color: green;
+  border: none;
+  width: 100%;
+  margin: 24px 0;
+}
+
+/* --- LISTAS --- */
 
 li {
   margin: 0;
   padding: 0;
+}
+
+/* -------------------------
+   📱 MEDIA QUERY PARA CELULAR
+   ------------------------- */
+@media (max-width: 768px) {
+
+  .Presentacion {
+    height: auto;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .Horizontal {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Vertical {
+    align-items: center;
+    text-align: center;
+  }
+
+  .FotoPerfil {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+
+  .Cuerpo {
+    padding: 1rem;
+  }
+
+  .Row,
+  .DobleRow,
+  .TripleRow {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .Datos,
+  .DobleDatos,
+  .TripleDatos {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .Contacto,
+  .DobleContacto,
+  .TripleContacto {
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  p, li, span {
+    font-size: 16px;
+  }
+
+  .Nombre {
+    font-size: 26px;
+  }
+
+  .Profesion {
+    font-size: 18px;
+  }
 }
