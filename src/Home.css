@@ -144,9 +144,10 @@ li {
   .Contacto,
   .DobleContacto,
   .TripleContacto {
-    align-items: center;
-    text-align: center;
-    padding-left: 0;
+    align-items: start;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   p, li, span {
