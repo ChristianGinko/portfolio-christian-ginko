@@ -33,6 +33,14 @@
   color: white;
 }
 
+.Nombre {
+  margin-bottom: 0.5rem;
+}
+
+.Profesion {
+  margin-top: 0.5rem;
+}
+
 .FotoPerfil {
   height: 7rem;
   width: 7rem;
