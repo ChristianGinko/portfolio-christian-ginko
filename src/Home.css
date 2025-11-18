@@ -6,8 +6,6 @@
   height: 100%;
 }
 
-/* --- PRESENTACIÓN --- */
-
 .Presentacion {
   align-items: center;
   justify-content: center;
@@ -42,14 +40,10 @@
   object-fit: cover;
 }
 
-/* --- CUERPO --- */
-
 .Cuerpo {
   padding: 1rem 3rem;
   color: black;
 }
-
-/* --- MULTICOLUMNAS --- */
 
 .Row,
 .DobleRow,
@@ -60,14 +54,14 @@
   gap: 4rem;
   width: 100%;
   padding: 20px 0;
-  flex-wrap: wrap; /* << IMPORTANTE para que no se rompa en celular */
+  flex-wrap: wrap;
 }
 
 .Datos,
 .DobleDatos,
 .TripleDatos {
   flex: 1;
-  min-width: 260px; /* << más chico para celular */
+  min-width: 260px;
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -84,8 +78,6 @@
   align-items: start;
 }
 
-/* --- DIVIDER --- */
-
 .Divider {
   height: 2px;
   background-color: green;
@@ -94,16 +86,11 @@
   margin: 24px 0;
 }
 
-/* --- LISTAS --- */
-
 li {
   margin: 0;
   padding: 0;
 }
 
-/* -------------------------
-   📱 MEDIA QUERY PARA CELULAR
-   ------------------------- */
 @media (max-width: 768px) {
 
   .Presentacion {
