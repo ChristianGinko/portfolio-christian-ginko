@@ -1,0 +1,144 @@
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  height: 100%;
+  background-color: lightgray;
+}
+
+.Presentacion {
+  align-items: center;
+  justify-content: center;
+  background-image: url("./codigo fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+
+.Horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+  width: 60%;
+}
+
+.Vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+.Nombre {
+  margin-bottom: 0.5rem;
+}
+
+.Profesion {
+  margin-top: 0.5rem;
+}
+
+.FotoPerfil {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Cuerpo {
+  padding: 1rem 3rem;
+  color: black;
+}
+
+.Divider {
+  height: 2px;
+  background-color: gray;
+  border: none;
+  width: 100%;
+  margin: 24px 0;
+}
+
+.Datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8rem;
+    font-size: 1.5rem;
+}
+
+.DatosDoble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.Titulo {
+    font-size: 2rem;
+}
+
+.Contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.RowUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.RowDoble {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ColumnDoble {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.btn-img {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: white;
+  border: 0.2rem;
+  border-style: solid;
+  border-color: black;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 200px;
+  width: 200px;
+}
+
+.btn-img img {
+  width: 150px;
+}

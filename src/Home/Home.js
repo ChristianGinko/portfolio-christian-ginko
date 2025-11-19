@@ -1,4 +1,3 @@
-
 import './Home.css';
 import christianGinko from './Christian Ginko.jpg';
 
