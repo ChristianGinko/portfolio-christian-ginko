@@ -104,6 +104,13 @@ function Portfolio () {
                         </li>
                     </div>
                 </div>
+                <div className="DatosTriple">
+                    <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '1.5rem', fontStyle: 'italic', textDecoration: 'underline', color: 'white'}}>Idiomas</p>
+                    <div className="DobleContacto">
+                        <li><span style={{fontWeight: 'bold'}}>Español: </span>Nativo</li>
+                        <li><span style={{fontWeight: 'bold'}}>Inglés: </span> Intermedio</li>
+                    </div>
+                </div>
             </div>
         </div>
     );

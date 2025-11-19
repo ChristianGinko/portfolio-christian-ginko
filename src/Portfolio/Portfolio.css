@@ -80,6 +80,8 @@
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .Titulo {
@@ -121,6 +123,8 @@
 }
 
 .RowTriple {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: gray;
