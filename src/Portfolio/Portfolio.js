@@ -86,6 +86,25 @@ function Portfolio () {
                     </li>
                 </div>
             </div>
+            <div className="RowTriple">
+                <div className="DatosTriple">
+                    <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '1.5rem', fontStyle: 'italic', textDecoration: 'underline', color: 'white'}}>Formación académica</p>
+                    <div className="Contacto">
+                        <li>
+                            <div className="Contacto">
+                                <span style={{fontWeight: 'bold'}}>Bachiller en Bienes y Servicios</span>
+                                <span style={{fontStyle: 'italic'}}>EET N°9, Lanús, Buenos Aires | Marzo 2007 - Diciembre 2012</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="Contacto">
+                                <span style={{fontWeight: 'bold'}}>First Certificate in English</span>
+                                <span style={{fontStyle: 'italic'}}>University of Cambridge | Marzo 2013 - Octubre 2014</span>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

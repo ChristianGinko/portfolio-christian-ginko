@@ -76,6 +76,13 @@
     font-size: 1rem;
 }
 
+.DatosTriple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
 .Titulo {
     font-size: 2rem;
 }
@@ -105,6 +112,13 @@
     justify-content: center;
     gap: 10rem;
     margin-top: 3rem;
+}
+
+.RowTriple {
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    height: 10rem;
 }
 
 .Column {
