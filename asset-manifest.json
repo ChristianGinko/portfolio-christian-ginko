@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-christian-ginko/static/css/main.5a15bac7.css",
+    "main.css": "/portfolio-christian-ginko/static/css/main.fbe96382.css",
     "main.js": "/portfolio-christian-ginko/static/js/main.bcb91e45.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/Christian Ginko.jpg": "/portfolio-christian-ginko/static/media/Christian Ginko.34450f166a1d8c03d6d0.jpg",
     "static/media/codigo verde.jpg": "/portfolio-christian-ginko/static/media/codigo verde.3e31bdf7679bcf7da1de.jpg",
     "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
     "index.html": "/portfolio-christian-ginko/index.html",
-    "main.5a15bac7.css.map": "/portfolio-christian-ginko/static/css/main.5a15bac7.css.map",
+    "main.fbe96382.css.map": "/portfolio-christian-ginko/static/css/main.fbe96382.css.map",
     "main.bcb91e45.js.map": "/portfolio-christian-ginko/static/js/main.bcb91e45.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a15bac7.css",
+    "static/css/main.fbe96382.css",
     "static/js/main.bcb91e45.js"
   ]
 }
