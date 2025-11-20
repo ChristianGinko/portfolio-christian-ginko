@@ -5,7 +5,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   height: 100%;
 }
 
@@ -52,6 +52,7 @@
 }
 
 .Cuerpo {
+  margin-top: 2rem;
   padding: 1rem 3rem;
   color: black;
   background-color: aquamarine;
