@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Portfolio from './Portfolio/Portfolio.js';
+import Home from './Home/Home.js';
 
 function Navigator() {
     return (
         <BrowserRouter basename="/portfolio-christian-ginko">
             <Routes>
-                <Route path="/" element={<Portfolio />} />
+                <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
     )
