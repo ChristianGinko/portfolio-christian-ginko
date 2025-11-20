@@ -17,6 +17,7 @@
   background-size: cover;
   background-position: center;
   height: 10rem;
+  border-bottom: 0.2rem solid greenyellow;
 }
 
 .Horizontal {
