@@ -1,5 +1,8 @@
 .Home {
-  background-color: aquamarine;
+  background-image: url("./codigo verde.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   padding-bottom: 5rem;
@@ -51,6 +54,12 @@
 .Cuerpo {
   padding: 1rem 3rem;
   color: black;
+  background-color: aquamarine;
+  border: 0.2rem;
+  border-color: black;
+  border-style: solid;
+  width: 85%;
+  align-self: center;
 }
 
 .Row,
@@ -74,6 +83,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: aquamarine;
+  padding-bottom: 1rem;
+  border: 0.2rem;
+  border-color: black;
+  border-style: solid;
 }
 
 .Contacto,

@@ -22,7 +22,6 @@ function Home() {
           colaborativos.
         </p>
       </div>
-      <hr className="Divider" />
       <div className="Row">
         <div className="Datos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Habilidades técnicas</p>
@@ -51,7 +50,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <hr className="Divider" />
       <div className="DobleRow">
         <div className="DobleDatos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Datos de contacto</p>
@@ -72,7 +70,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <hr className="Divider" />
       <div className="TripleRow">
         <div className="TripleDatos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Formación académica</p>
