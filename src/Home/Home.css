@@ -56,9 +56,9 @@
   margin-top: 2rem;
   padding: 1rem 3rem;
   color: black;
-  background-color: aquamarine;
+  background-color: rgba(127, 255, 212, 0.9);
   border: 0.2rem;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.9);
   border-style: solid;
   width: 85%;
   align-self: center;
@@ -85,10 +85,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aquamarine;
+  background-color: rgba(127, 255, 212, 0.9);
   padding-bottom: 1rem;
   border: 0.2rem;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.9);
   border-style: solid;
   flex-wrap: wrap;
 }
