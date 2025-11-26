@@ -115,8 +115,8 @@ li {
 }
 
 .icon {
-  width: auto;
-  height: 20px;
+  width: 20px;
+  height: auto;
   margin-right: 0.6rem;
 }
 
