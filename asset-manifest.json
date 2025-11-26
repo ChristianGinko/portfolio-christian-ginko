@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-christian-ginko/static/css/main.3b967831.css",
+    "main.css": "/portfolio-christian-ginko/static/css/main.0fd45d79.css",
     "main.js": "/portfolio-christian-ginko/static/js/main.719a5b2b.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/instagramLogo.png": "/portfolio-christian-ginko/static/media/instagramLogo.7b39d9551fa8925d8443.png",
@@ -8,12 +8,12 @@
     "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
     "static/media/emailLogo.png": "/portfolio-christian-ginko/static/media/emailLogo.69eebd31e2bc8dd66ffa.png",
     "index.html": "/portfolio-christian-ginko/index.html",
-    "main.3b967831.css.map": "/portfolio-christian-ginko/static/css/main.3b967831.css.map",
+    "main.0fd45d79.css.map": "/portfolio-christian-ginko/static/css/main.0fd45d79.css.map",
     "main.719a5b2b.js.map": "/portfolio-christian-ginko/static/js/main.719a5b2b.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b967831.css",
+    "static/css/main.0fd45d79.css",
     "static/js/main.719a5b2b.js"
   ]
 }
