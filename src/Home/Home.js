@@ -69,7 +69,6 @@ function Home() {
             <li><a style={{fontWeight: 'bold'}} href="https://github.com/ChristianGinko/Pokedex/tree/repositorio">PokeApi</a></li>
             <li><a style={{fontWeight: 'bold'}} href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">Pokédex</a></li>
             <li><a style={{fontWeight: 'bold'}} href="https://github.com/ChristianGinko/MiPrimeraApp/tree/object/app">Datos Star Wars (Prueba)</a></li>
-            <li><a style={{fontWeight: 'bold'}} href="https://github.com/ChristianGinko/portfolio-christian-ginko">Portfolio</a></li>
           </div>
         </div>
       </div>
