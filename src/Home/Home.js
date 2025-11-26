@@ -62,26 +62,26 @@ function Home() {
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Datos de contacto</p>
           <div className="DobleContacto">
             <ul className="contact-list">
-              <li>
+              <li className="item">
                 <img src={emailLogo} className="icon" alt="email" />
-                <span style={{fontWeight: 'bold'}}>Email: </span> christianginko@gmail.com
+                <span className="label">Email:</span>christianginko@gmail.com
               </li>
-              <li>
+              <li className="item">
                 <img src={instagramLogo} className="icon" alt="instagram" />
-                <span style={{fontWeight: 'bold'}}>Instagram: </span> <a href="https://www.instagram.com/christianginko/">christianginko</a>
+                <span className="label">Instagram:</span><a href="https://www.instagram.com/christianginko/">christianginko</a>
               </li>
-              <li>
+              <li className="item">
                 <img src={twitterLogo} className="icon" alt="twitter" />
-                <span style={{fontWeight: 'bold'}}>Twitter: </span> <a href="https://x.com/CGinko">CGinko</a>
-                </li>
-              <li>
+                <span className="label">Twitter:</span><a href="https://x.com/CGinko">CGinko</a>
+              </li>
+              <li className="item">
                 <img src={linkedinLogo} className="icon" alt="linkedin" />
-                <span style={{fontWeight: 'bold'}}>Linkedin: </span> <a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a>
-                </li>
-              <li>
+                <span className="label">Linkedin:</span><a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a>
+              </li>
+              <li className="item">
                 <img src={githubLogo} className="icon" alt="github" />
-                <span style={{fontWeight: 'bold'}}>GitHub: </span> <a href="https://github.com/ChristianGinko">ChristianGinko</a>
-                </li>
+                <span className="label">GitHub:</span><a href="https://github.com/ChristianGinko">ChristianGinko</a>
+              </li>
             </ul>
           </div>
         </div>

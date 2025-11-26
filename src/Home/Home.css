@@ -120,6 +120,16 @@ li {
   margin-right: 0.6rem;
 }
 
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 0.4rem;
+}
+
 @media (max-width: 768px) {
 
   .Presentacion {
