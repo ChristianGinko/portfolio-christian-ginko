@@ -1,8 +1,5 @@
 .Home {
-  background-image: url("./codigo verde.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: aquamarine;
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
@@ -17,7 +14,6 @@
   background-size: cover;
   background-position: center;
   height: 10rem;
-  border-bottom: 0.2rem solid greenyellow;
 }
 
 .Horizontal {
@@ -53,10 +49,8 @@
 }
 
 .Cuerpo {
-  margin-top: 2rem;
   padding: 1rem 3rem;
   color: black;
-  background-color: rgba(127, 255, 212, 0.85);
   width: 85%;
   align-self: center;
 }
@@ -82,7 +76,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(127, 255, 212, 0.85);
   padding-bottom: 1rem;
   flex-wrap: wrap;
 }
