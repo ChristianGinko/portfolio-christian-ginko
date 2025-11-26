@@ -103,6 +103,23 @@ li {
   padding: 0;
 }
 
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.icon {
+  width: auto;
+  height: 20px;
+  margin-right: 0.6rem;
+}
+
 @media (max-width: 768px) {
 
   .Presentacion {

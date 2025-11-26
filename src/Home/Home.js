@@ -1,5 +1,10 @@
 import './Home.css';
 import christianGinko from './Christian Ginko.jpg';
+import emailLogo from './emailLogo.png';
+import instagramLogo from './instagramLogo.png';
+import twitterLogo from './twitterLogo.png';
+import linkedinLogo from './linkedinLogo.png';
+import githubLogo from './githubLogo.png';
 
 function Home() {
   return (
@@ -56,11 +61,28 @@ function Home() {
         <div className="DobleDatos">
           <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Datos de contacto</p>
           <div className="DobleContacto">
-            <li><span style={{fontWeight: 'bold'}}>Email:</span> christianginko@gmail.com</li>
-            <li><span style={{fontWeight: 'bold'}}>Instagram:</span> <a href="https://www.instagram.com/christianginko/">christianginko</a></li>
-            <li><span style={{fontWeight: 'bold'}}>Twitter:</span> <a href="https://x.com/CGinko">CGinko</a></li>
-            <li><span style={{fontWeight: 'bold'}}>Linkedin:</span> <a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a></li>
-            <li><span style={{fontWeight: 'bold'}}>GitHub:</span> <a href="https://github.com/ChristianGinko">ChristianGinko</a></li>
+            <ul className="contact-list">
+              <li>
+                <img src={emailLogo} className="icon" alt="email" />
+                <span style={{fontWeight: 'bold'}}>Email: </span> christianginko@gmail.com
+              </li>
+              <li>
+                <img src={instagramLogo} className="icon" alt="instagram" />
+                <span style={{fontWeight: 'bold'}}>Instagram: </span> <a href="https://www.instagram.com/christianginko/">christianginko</a>
+              </li>
+              <li>
+                <img src={twitterLogo} className="icon" alt="twitter" />
+                <span style={{fontWeight: 'bold'}}>Twitter: </span> <a href="https://x.com/CGinko">CGinko</a>
+                </li>
+              <li>
+                <img src={linkedinLogo} className="icon" alt="linkedin" />
+                <span style={{fontWeight: 'bold'}}>Linkedin: </span> <a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a>
+                </li>
+              <li>
+                <img src={githubLogo} className="icon" alt="github" />
+                <span style={{fontWeight: 'bold'}}>GitHub: </span> <a href="https://github.com/ChristianGinko">ChristianGinko</a>
+                </li>
+            </ul>
           </div>
         </div>
         <div className="DobleDatos">
