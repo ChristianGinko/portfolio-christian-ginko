@@ -62,3 +62,48 @@
   width: 100%;
   margin: 24px 0;
 }
+
+.Data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Proyectos {
+    display: flex;
+    flex-direction: column;
+}
+
+.CadaProyecto {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.Contenedor {
+  position: relative;
+  display: inline-block;
+}
+
+.Imagen {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.Texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  pointer-events: none;
+}

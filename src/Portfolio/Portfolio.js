@@ -1,5 +1,9 @@
 import './Portfolio.css';
+import { Link } from "react-router-dom";
 import christianGinko from './Christian Ginko.jpg';
+import pokeapi from './Pokeapi.jpg';
+import pokedex from './Pokedex.jpeg';
+import starwars from './StarWars.png';
 
 function Portfolio () {
     return (
@@ -21,6 +25,28 @@ function Portfolio () {
                     seguir creciendo profesionalmente, incorporando nuevas tecnologías y compartiendo saberes en entornos
                     colaborativos.
                 </p>
+            </div>
+            <hr className="Divider" />
+            <div className="Data">
+                <div className="Proyectos">
+                    <h3 style={{alignSelf: 'center'}}>Proyectos</h3>
+                    <div className="CadaProyecto">
+                        <Link to="/pokeapi"><div className="Contenedor">
+                            <img src={pokeapi} alt="pokeapi" className="Imagen" />
+                            <span className="Texto">Pokeapi</span>
+                        </div></Link>
+                        <Link to="/pokedex"><div className="Contenedor">
+                            <img src={pokedex} alt="pokedex" className="Imagen" />
+                            <span className="Texto">Pokédex</span>
+                        </div></Link>
+                        <Link to="/starwars"><div className="Contenedor">
+                            <img src={starwars} alt="starwars" className="Imagen" />
+                            <span className="Texto">Star Wars</span>
+                        </div></Link>
+                    </div>
+                </div>
+                <hr className="Divider" />
+                
             </div>
         </div>
     )
