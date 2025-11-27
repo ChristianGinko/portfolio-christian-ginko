@@ -1,5 +1,4 @@
 import './Portfolio.css';
-import { Link } from "react-router-dom";
 import christianGinko from './Christian Ginko.jpg';
 import pokeapi from './Pokeapi.jpg';
 import pokedex from './Pokedex.jpeg';
@@ -29,20 +28,20 @@ function Portfolio () {
             <hr className="Divider" />
             <div className="Data">
                 <div className="Proyectos">
-                    <h3 style={{alignSelf: 'center'}}>Proyectos</h3>
+                    <h2 style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', textDecoration: 'underline', alignSelf: 'center'}}>Proyectos</h2>
                     <div className="CadaProyecto">
-                        <Link to="/pokeapi"><div className="Contenedor">
+                        <div className="Contenedor"><a href="https://github.com/ChristianGinko/Pokedex/tree/repositorio">
                             <img src={pokeapi} alt="pokeapi" className="Imagen" />
                             <span className="Texto">Pokeapi</span>
-                        </div></Link>
-                        <Link to="/pokedex"><div className="Contenedor">
+                        </a></div>
+                        <div className="Contenedor"><a href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">
                             <img src={pokedex} alt="pokedex" className="Imagen" />
                             <span className="Texto">Pokédex</span>
-                        </div></Link>
-                        <Link to="/starwars"><div className="Contenedor">
+                        </a></div>
+                        <div className="Contenedor"><a href="https://github.com/ChristianGinko/MiPrimeraApp/tree/object/app">
                             <img src={starwars} alt="starwars" className="Imagen" />
                             <span className="Texto">Star Wars</span>
-                        </div></Link>
+                        </a></div>
                     </div>
                 </div>
                 <hr className="Divider" />
@@ -74,6 +73,7 @@ function Portfolio () {
                         </div>
                     </div>
                 </div>
+                <hr className="Divider" />
                 <div className="DobleRow">
                     <div className="DobleDatos">
                         <p style={{fontFamily: 'Lucida Sans', fontWeight: 'bold', fontSize: '25px', fontStyle: 'italic', textDecoration: 'underline'}}>Formación académica</p>
@@ -101,7 +101,23 @@ function Portfolio () {
                     </div>
                 </div>
             </div>
-            <div className="DatosContacto"></div>
+            <div className="DatosContacto">
+                <li className="item">
+                    <span className="label">Email:</span>{" "}christianginko@gmail.com
+                </li>
+                <li className="item">
+                    <span className="label">Instagram:</span>{" "}<a href="https://www.instagram.com/christianginko/">christianginko</a>
+                </li>
+                <li className="item">
+                    <span className="label">Twitter:</span>{" "}<a href="https://x.com/CGinko">CGinko</a>
+                </li>
+                <li className="item">
+                    <span className="label">Linkedin:</span>{" "}<a href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a>
+                </li>
+                <li className="item">
+                    <span className="label">GitHub:</span>{" "}<a href="https://github.com/ChristianGinko">ChristianGinko</a>
+                </li>
+            </div>
         </div>
     )
 }
