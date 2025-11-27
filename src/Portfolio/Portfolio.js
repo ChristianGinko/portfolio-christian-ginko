@@ -15,12 +15,12 @@ function Portfolio () {
             </div>
             <div className="Cuerpo">
                 <h2 style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', textDecoration: 'underline'}}>Sobre mí</h2>
-                    <p style={{fontFamily: 'Arial', fontStyle: 'oblique'}}>
-                        Desarrollador de software con experiencia en Kotlin, React.js y Java, entre otras tecnologías. Apasionado por la tecnología, disfruto participar
-                        activamente en proyectos, aprender de cada etapa y aportar soluciones con mis conocimientos. Busco
-                        seguir creciendo profesionalmente, incorporando nuevas tecnologías y compartiendo saberes en entornos
-                        colaborativos.
-                    </p>
+                <p style={{fontFamily: 'Arial', fontStyle: 'oblique'}}>
+                    Desarrollador de software con experiencia en Kotlin, React.js y Java, entre otras tecnologías. Apasionado por la tecnología, disfruto participar
+                    activamente en proyectos, aprender de cada etapa y aportar soluciones con mis conocimientos. Busco
+                    seguir creciendo profesionalmente, incorporando nuevas tecnologías y compartiendo saberes en entornos
+                    colaborativos.
+                </p>
             </div>
         </div>
     )
