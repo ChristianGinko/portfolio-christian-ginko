@@ -1,7 +1,7 @@
 .Home {
-  background-color: aquamarine;
   display: flex;
   flex-direction: column;
+  background-color: aquamarine;
   padding-bottom: 2rem;
   height: 100%;
 }

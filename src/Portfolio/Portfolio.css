@@ -1,0 +1,49 @@
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding-bottom: 2rem;
+  height: 100%;
+}
+
+.Presentacion {
+  align-items: center;
+  justify-content: center;
+  background-image: url("./codigo fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+
+.Horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+  width: 60%;
+}
+
+.Vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+.Nombre {
+  margin-bottom: 0.5rem;
+}
+
+.Profesion {
+  margin-top: 0.5rem;
+}
+
+.FotoPerfil {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
