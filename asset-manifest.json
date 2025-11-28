@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-christian-ginko/static/css/main.f3b444d1.css",
+    "main.css": "/portfolio-christian-ginko/static/css/main.95bdc29f.css",
     "main.js": "/portfolio-christian-ginko/static/js/main.6a5ce853.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/Pokeapi.jpg": "/portfolio-christian-ginko/static/media/Pokeapi.ccbc68bef1a037f3370b.jpg",
@@ -14,12 +14,12 @@
     "static/media/Email logo.png": "/portfolio-christian-ginko/static/media/Email logo.24ccd10b2dc403c0998b.png",
     "static/media/Linkedin logo.png": "/portfolio-christian-ginko/static/media/Linkedin logo.df438af085731607b0b4.png",
     "index.html": "/portfolio-christian-ginko/index.html",
-    "main.f3b444d1.css.map": "/portfolio-christian-ginko/static/css/main.f3b444d1.css.map",
+    "main.95bdc29f.css.map": "/portfolio-christian-ginko/static/css/main.95bdc29f.css.map",
     "main.6a5ce853.js.map": "/portfolio-christian-ginko/static/js/main.6a5ce853.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3b444d1.css",
+    "static/css/main.95bdc29f.css",
     "static/js/main.6a5ce853.js"
   ]
 }
