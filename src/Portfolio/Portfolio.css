@@ -22,7 +22,9 @@
   justify-content: center;
   gap: 2rem;
   height: 100%;
-  width: 60%;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .Vertical {
@@ -78,12 +80,18 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .Contenedor {
     position: relative;
     display: inline-block;
+    overflow: hidden;
+    border: 5px solid black;
+    transition: transform 0.3s ease;
+    border-radius: 6px;
 }
 
 .Imagen {
@@ -91,9 +99,10 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 5px;
-    border-color: black;
-    border-style: solid;
+}
+
+.Contenedor:hover .Imagen {
+    transform: scale(1.08);
 }
 
 .Texto {
@@ -106,6 +115,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px black;
     pointer-events: none;
+    z-index: 10;
 }
 
 .Row,
@@ -143,6 +153,7 @@
 .DatosContacto {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -151,6 +162,46 @@
     gap: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+  margin-right: 0.6rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 0.4rem;
+}
+
+.LinkCustom {
+  color: white;
+}
+
+.LinkCustom:hover {
+  color: gray;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +221,10 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+  }
+
+  p, li, span {
+    font-size: 16px;
   }
 
   .Datos,
