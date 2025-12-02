@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Portfolio from './Portfolio/Portfolio.js';
 import christianGinko from './Portfolio/Christian Ginko.jpg';
 import './Portfolio/Portfolio.css';
+import Pokeapi from './Portfolio/Pokeapi/Pokeapi.js';
 
 function Navigator() {
     return (
@@ -17,6 +18,7 @@ function Navigator() {
             </div>
             <Routes>
                 <Route path="/" element={<Portfolio />} />
+                <Route path="/pokeapi" element={<Pokeapi />} />
             </Routes>
         </BrowserRouter>
     )

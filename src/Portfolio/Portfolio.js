@@ -7,6 +7,7 @@ import instagram from './Instagram logo.png';
 import github from './GitHub logo.png';
 import linkedin from './Linkedin logo.png';
 import x from './X logo.png';
+import { Link } from 'react-router-dom';
 
 function Portfolio () {
     return (
@@ -25,10 +26,12 @@ function Portfolio () {
                 <div className="Proyectos">
                     <h2 style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', textDecoration: 'underline', alignSelf: 'center'}}>Proyectos</h2>
                     <div className="CadaProyecto">
-                        <div className="Contenedor"><a href="https://github.com/ChristianGinko/Pokedex/tree/repositorio">
-                            <img src={pokeapi} alt="pokeapi" className="Imagen" />
-                            <span className="Texto">Pokeapi</span>
-                        </a></div>
+                        <Link to={"/pokeapi"}>
+                            <div className="Contenedor">
+                                <img src={pokeapi} alt="pokeapi" className="Imagen" />
+                                <span className="Texto">Pokeapi</span>
+                            </div>
+                        </Link>
                         <div className="Contenedor"><a href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">
                             <img src={pokedex} alt="pokedex" className="Imagen" />
                             <span className="Texto">Pokédex</span>
