@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-christian-ginko/static/css/main.247decc3.css",
-    "main.js": "/portfolio-christian-ginko/static/js/main.fd0185c2.js",
+    "main.js": "/portfolio-christian-ginko/static/js/main.297928d4.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/Pokeapi.jpg": "/portfolio-christian-ginko/static/media/Pokeapi.ccbc68bef1a037f3370b.jpg",
     "static/media/StarWars.png": "/portfolio-christian-ginko/static/media/StarWars.520fd9491fef9afda32d.png",
     "static/media/Christian Ginko.jpg": "/portfolio-christian-ginko/static/media/Christian Ginko.34450f166a1d8c03d6d0.jpg",
     "static/media/Pokedex.jpeg": "/portfolio-christian-ginko/static/media/Pokedex.5bb18039132f21aea48f.jpeg",
     "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
+    "static/media/Lugares de encuentro.jpeg": "/portfolio-christian-ginko/static/media/Lugares de encuentro.0b10cb9c5563861ec9b1.jpeg",
+    "static/media/Botonera de Ligas.jpeg": "/portfolio-christian-ginko/static/media/Botonera de Ligas.8c708eafd3056d401735.jpeg",
+    "static/media/Lista de Pokemons.jpeg": "/portfolio-christian-ginko/static/media/Lista de Pokemons.92b7bbc14ce5627baafc.jpeg",
+    "static/media/Datos de Pokemon.jpeg": "/portfolio-christian-ginko/static/media/Datos de Pokemon.6cb86d436247e138d9f3.jpeg",
     "static/media/Lista Pokemon.png": "/portfolio-christian-ginko/static/media/Lista Pokemon.fc9ff9cc451f8f11e302.png",
     "static/media/Lista Tipos.png": "/portfolio-christian-ginko/static/media/Lista Tipos.14313a24cfc776ac3b19.png",
     "static/media/Lista Ligas.png": "/portfolio-christian-ginko/static/media/Lista Ligas.b9bc815dde7249bebd99.png",
@@ -20,11 +24,11 @@
     "static/media/Linkedin logo.png": "/portfolio-christian-ginko/static/media/Linkedin logo.df438af085731607b0b4.png",
     "index.html": "/portfolio-christian-ginko/index.html",
     "main.247decc3.css.map": "/portfolio-christian-ginko/static/css/main.247decc3.css.map",
-    "main.fd0185c2.js.map": "/portfolio-christian-ginko/static/js/main.fd0185c2.js.map",
+    "main.297928d4.js.map": "/portfolio-christian-ginko/static/js/main.297928d4.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.247decc3.css",
-    "static/js/main.fd0185c2.js"
+    "static/js/main.297928d4.js"
   ]
 }
