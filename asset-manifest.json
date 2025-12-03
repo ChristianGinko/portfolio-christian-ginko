@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-christian-ginko/static/css/main.247decc3.css",
-    "main.js": "/portfolio-christian-ginko/static/js/main.297928d4.js",
+    "main.js": "/portfolio-christian-ginko/static/js/main.25b13441.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/Pokeapi.jpg": "/portfolio-christian-ginko/static/media/Pokeapi.ccbc68bef1a037f3370b.jpg",
     "static/media/StarWars.png": "/portfolio-christian-ginko/static/media/StarWars.520fd9491fef9afda32d.png",
@@ -10,6 +10,7 @@
     "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
     "static/media/Lugares de encuentro.jpeg": "/portfolio-christian-ginko/static/media/Lugares de encuentro.0b10cb9c5563861ec9b1.jpeg",
     "static/media/Botonera de Ligas.jpeg": "/portfolio-christian-ginko/static/media/Botonera de Ligas.8c708eafd3056d401735.jpeg",
+    "static/media/Lista Peliculas Star Wars.jpeg": "/portfolio-christian-ginko/static/media/Lista Peliculas Star Wars.5db64634c5a582d985a4.jpeg",
     "static/media/Lista de Pokemons.jpeg": "/portfolio-christian-ginko/static/media/Lista de Pokemons.92b7bbc14ce5627baafc.jpeg",
     "static/media/Datos de Pokemon.jpeg": "/portfolio-christian-ginko/static/media/Datos de Pokemon.6cb86d436247e138d9f3.jpeg",
     "static/media/Lista Pokemon.png": "/portfolio-christian-ginko/static/media/Lista Pokemon.fc9ff9cc451f8f11e302.png",
@@ -19,16 +20,17 @@
     "static/media/X logo.png": "/portfolio-christian-ginko/static/media/X logo.974b83f5cd02de0c2ad9.png",
     "static/media/Datos Tipo.png": "/portfolio-christian-ginko/static/media/Datos Tipo.fdf9ced916bbccd127bc.png",
     "static/media/Instagram logo.png": "/portfolio-christian-ginko/static/media/Instagram logo.e30b39a7c14c4023b972.png",
+    "static/media/Splash Screen Star Wars.jpeg": "/portfolio-christian-ginko/static/media/Splash Screen Star Wars.f37354451507949e5ee1.jpeg",
     "static/media/GitHub logo.png": "/portfolio-christian-ginko/static/media/GitHub logo.12cf9b72a3b27b591bc2.png",
     "static/media/Email logo.png": "/portfolio-christian-ginko/static/media/Email logo.24ccd10b2dc403c0998b.png",
     "static/media/Linkedin logo.png": "/portfolio-christian-ginko/static/media/Linkedin logo.df438af085731607b0b4.png",
     "index.html": "/portfolio-christian-ginko/index.html",
     "main.247decc3.css.map": "/portfolio-christian-ginko/static/css/main.247decc3.css.map",
-    "main.297928d4.js.map": "/portfolio-christian-ginko/static/js/main.297928d4.js.map",
+    "main.25b13441.js.map": "/portfolio-christian-ginko/static/js/main.25b13441.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.247decc3.css",
-    "static/js/main.297928d4.js"
+    "static/js/main.25b13441.js"
   ]
 }
