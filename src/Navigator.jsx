@@ -3,6 +3,11 @@ import Portfolio from './Portfolio/Portfolio.js';
 import christianGinko from './Portfolio/Christian Ginko.jpg';
 import './Portfolio/Portfolio.css';
 import Pokeapi from './Portfolio/Pokeapi/Pokeapi.js';
+import email from './Portfolio/Email logo.png';
+import instagram from './Portfolio/Instagram logo.png';
+import github from './Portfolio/GitHub logo.png';
+import linkedin from './Portfolio/Linkedin logo.png';
+import x from './Portfolio/X logo.png';
 
 function Navigator() {
     return (
@@ -20,6 +25,28 @@ function Navigator() {
                 <Route path="/" element={<Portfolio />} />
                 <Route path="/pokeapi" element={<Pokeapi />} />
             </Routes>
+            <div className="DatosContacto">
+                <li className="item">
+                    <img src={email} className="icon" alt="email" />
+                    <span className="label">Email:</span>{" "}christianginko@gmail.com
+                </li>
+                <li className="item">
+                    <img src={instagram} className="icon" alt="instagram" />
+                    <span className="label">Instagram:</span>{" "}<a className="LinkCustom" href="https://www.instagram.com/christianginko/">christianginko</a>
+                </li>
+                <li className="item">
+                    <img src={x} className="icon" alt="x" />
+                    <span className="label">Twitter:</span>{" "}<a className="LinkCustom" href="https://x.com/CGinko">CGinko</a>
+                </li>
+                <li className="item">
+                    <img src={linkedin} className="icon" alt="linkedin" />
+                    <span className="label">Linkedin:</span>{" "}<a className="LinkCustom" href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a>
+                </li>
+                <li className="item">
+                    <img src={github} className="icon" alt="github" />
+                    <span className="label">GitHub:</span>{" "}<a className="LinkCustom" href="https://github.com/ChristianGinko">ChristianGinko</a>
+                </li>
+            </div>
         </BrowserRouter>
     )
 }

@@ -2,11 +2,6 @@ import './Portfolio.css';
 import pokeapi from './Pokeapi.jpg';
 import pokedex from './Pokedex.jpeg';
 import starwars from './StarWars.png';
-import email from './Email logo.png';
-import instagram from './Instagram logo.png';
-import github from './GitHub logo.png';
-import linkedin from './Linkedin logo.png';
-import x from './X logo.png';
 import { Link } from 'react-router-dom';
 
 function Portfolio () {
@@ -98,28 +93,6 @@ function Portfolio () {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="DatosContacto">
-                <li className="item">
-                    <img src={email} className="icon" alt="email" />
-                    <span className="label">Email:</span>{" "}christianginko@gmail.com
-                </li>
-                <li className="item">
-                    <img src={instagram} className="icon" alt="instagram" />
-                    <span className="label">Instagram:</span>{" "}<a className="LinkCustom" href="https://www.instagram.com/christianginko/">christianginko</a>
-                </li>
-                <li className="item">
-                    <img src={x} className="icon" alt="x" />
-                    <span className="label">Twitter:</span>{" "}<a className="LinkCustom" href="https://x.com/CGinko">CGinko</a>
-                </li>
-                <li className="item">
-                    <img src={linkedin} className="icon" alt="linkedin" />
-                    <span className="label">Linkedin:</span>{" "}<a className="LinkCustom" href="https://www.linkedin.com/in/christian-ariel-ginko/">Christian Ariel Ginko</a>
-                </li>
-                <li className="item">
-                    <img src={github} className="icon" alt="github" />
-                    <span className="label">GitHub:</span>{" "}<a className="LinkCustom" href="https://github.com/ChristianGinko">ChristianGinko</a>
-                </li>
             </div>
         </div>
     )
