@@ -1,7 +1,22 @@
-.Cuerpo {
+.CuerpoPokeapi {
     background-color: aquamarine;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.Muestra {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.Cartel {
+    height: 400px;
+    width: auto;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
 }
