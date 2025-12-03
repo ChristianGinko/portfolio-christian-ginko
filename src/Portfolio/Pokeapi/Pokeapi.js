@@ -1,4 +1,4 @@
-import './Pokeapi.css';
+import '../EstiloProyecto.css';
 import { Link } from 'react-router-dom';
 import listaPokemon from './Lista Pokemon.png';
 import listaLigas from './Lista Ligas.png';

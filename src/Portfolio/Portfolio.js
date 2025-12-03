@@ -27,10 +27,12 @@ function Portfolio () {
                                 <span className="Texto">Pokeapi</span>
                             </div>
                         </Link>
-                        <div className="Contenedor"><a href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">
+                        <Link to={"/pokedex"}>
+                        <div className="Contenedor">
                             <img src={pokedex} alt="pokedex" className="Imagen" />
                             <span className="Texto">Pokédex</span>
-                        </a></div>
+                        </div>
+                        </Link>
                         <div className="Contenedor"><a href="https://github.com/ChristianGinko/MiPrimeraApp/tree/object/app">
                             <img src={starwars} alt="starwars" className="Imagen" />
                             <span className="Texto">Star Wars</span>
