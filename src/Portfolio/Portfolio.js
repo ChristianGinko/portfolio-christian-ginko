@@ -33,10 +33,12 @@ function Portfolio () {
                             <span className="Texto">Pokédex</span>
                         </div>
                         </Link>
-                        <div className="Contenedor"><a href="https://github.com/ChristianGinko/MiPrimeraApp/tree/object/app">
+                        <Link to={"/starwars"}>
+                        <div className="Contenedor">
                             <img src={starwars} alt="starwars" className="Imagen" />
                             <span className="Texto">Star Wars</span>
-                        </a></div>
+                        </div>
+                        </Link>
                     </div>
                 </div>
                 <hr className="Divider" />
