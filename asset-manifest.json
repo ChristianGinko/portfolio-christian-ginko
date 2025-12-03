@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio-christian-ginko/static/css/main.95bdc29f.css",
-    "main.js": "/portfolio-christian-ginko/static/js/main.6a5ce853.js",
+    "main.css": "/portfolio-christian-ginko/static/css/main.247decc3.css",
+    "main.js": "/portfolio-christian-ginko/static/js/main.fd0185c2.js",
     "static/js/453.6c8f7dd0.chunk.js": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js",
     "static/media/Pokeapi.jpg": "/portfolio-christian-ginko/static/media/Pokeapi.ccbc68bef1a037f3370b.jpg",
     "static/media/StarWars.png": "/portfolio-christian-ginko/static/media/StarWars.520fd9491fef9afda32d.png",
     "static/media/Christian Ginko.jpg": "/portfolio-christian-ginko/static/media/Christian Ginko.34450f166a1d8c03d6d0.jpg",
     "static/media/Pokedex.jpeg": "/portfolio-christian-ginko/static/media/Pokedex.5bb18039132f21aea48f.jpeg",
     "static/media/codigo fondo.jpg": "/portfolio-christian-ginko/static/media/codigo fondo.f411514c876c376d3014.jpg",
+    "static/media/Lista Pokemon.png": "/portfolio-christian-ginko/static/media/Lista Pokemon.fc9ff9cc451f8f11e302.png",
+    "static/media/Lista Tipos.png": "/portfolio-christian-ginko/static/media/Lista Tipos.14313a24cfc776ac3b19.png",
+    "static/media/Lista Ligas.png": "/portfolio-christian-ginko/static/media/Lista Ligas.b9bc815dde7249bebd99.png",
+    "static/media/Datos Pokemon.png": "/portfolio-christian-ginko/static/media/Datos Pokemon.4dd76b4f83aa703459ef.png",
     "static/media/X logo.png": "/portfolio-christian-ginko/static/media/X logo.974b83f5cd02de0c2ad9.png",
+    "static/media/Datos Tipo.png": "/portfolio-christian-ginko/static/media/Datos Tipo.fdf9ced916bbccd127bc.png",
     "static/media/Instagram logo.png": "/portfolio-christian-ginko/static/media/Instagram logo.e30b39a7c14c4023b972.png",
     "static/media/GitHub logo.png": "/portfolio-christian-ginko/static/media/GitHub logo.12cf9b72a3b27b591bc2.png",
     "static/media/Email logo.png": "/portfolio-christian-ginko/static/media/Email logo.24ccd10b2dc403c0998b.png",
     "static/media/Linkedin logo.png": "/portfolio-christian-ginko/static/media/Linkedin logo.df438af085731607b0b4.png",
     "index.html": "/portfolio-christian-ginko/index.html",
-    "main.95bdc29f.css.map": "/portfolio-christian-ginko/static/css/main.95bdc29f.css.map",
-    "main.6a5ce853.js.map": "/portfolio-christian-ginko/static/js/main.6a5ce853.js.map",
+    "main.247decc3.css.map": "/portfolio-christian-ginko/static/css/main.247decc3.css.map",
+    "main.fd0185c2.js.map": "/portfolio-christian-ginko/static/js/main.fd0185c2.js.map",
     "453.6c8f7dd0.chunk.js.map": "/portfolio-christian-ginko/static/js/453.6c8f7dd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95bdc29f.css",
-    "static/js/main.6a5ce853.js"
+    "static/css/main.247decc3.css",
+    "static/js/main.fd0185c2.js"
   ]
 }
