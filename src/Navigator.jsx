@@ -4,6 +4,7 @@ import christianGinko from './Portfolio/Christian Ginko.jpg';
 import './Portfolio/Portfolio.css';
 import Pokeapi from './Portfolio/Pokeapi/Pokeapi.js';
 import Pokedex from './Portfolio/Pokedex/Pokedex.js';
+import StarWars from './Portfolio/StarWars/StarWars.js';
 import email from './Portfolio/Email logo.png';
 import instagram from './Portfolio/Instagram logo.png';
 import github from './Portfolio/GitHub logo.png';
@@ -26,6 +27,7 @@ function Navigator() {
                 <Route path="/" element={<Portfolio />} />
                 <Route path="/pokeapi" element={<Pokeapi />} />
                 <Route path="/pokedex" element={<Pokedex />} />
+                <Route path="/starwars" element={<StarWars />} />
             </Routes>
             <div className="DatosContacto">
                 <li className="item">
