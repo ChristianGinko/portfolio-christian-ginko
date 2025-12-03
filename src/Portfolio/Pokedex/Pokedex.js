@@ -26,7 +26,7 @@ function Pokedex () {
             </div>
             <hr className="Divider" />
             <div className="Botones">
-                <a style={{fontFamily: 'Arial', fontStyle: 'italic', fontWeight: 'bold', fontSize: '20px'}} href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">Click acá para ver el código</a>
+                <a style={{fontFamily: 'Arial', fontStyle: 'italic', fontWeight: 'bold', fontSize: '20px'}} href="https://github.com/ChristianGinko/ProyectoPokdex/tree/PantallaLugares">Click acá para ver el código en GitHub</a>
                 <Link to={"/"}><span style={{fontFamily: 'Arial', fontStyle: 'italic', fontWeight: 'bold', fontSize: '20px'}}>Click acá para volver</span></Link>
             </div>
         </div>
