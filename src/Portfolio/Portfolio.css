@@ -198,6 +198,7 @@ li {
 
 .LinkCustom {
   color: white;
+  text-decoration: none;
 }
 
 .LinkCustom:hover {
