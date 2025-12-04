@@ -52,6 +52,12 @@
     text-decoration: underline;
 }
 
+.TituloMuestra {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .Muestra {
     display: flex;
     flex-direction: row;

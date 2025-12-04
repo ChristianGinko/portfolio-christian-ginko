@@ -23,9 +23,12 @@ function StarWars () {
                 <p><span className="Negrita">Control de versiones:</span> GitHub</p>
             </div>
             <hr className="Divider" />
-            <div className="Muestra">
-                <img src={splashStarWars} alt="splashStarWars" className="Cartel" />
-                <img src={listaStarWars} alt="listaStarWars" className="Cartel" />
+            <div className="TituloMuestra">
+                <span style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', fontSize: '25px', textDecoration: 'underline', alignSelf: 'center'}}>Imágenes de ejemplo</span>
+                <div className="Muestra">
+                    <img src={splashStarWars} alt="splashStarWars" className="Cartel" />
+                    <img src={listaStarWars} alt="listaStarWars" className="Cartel" />
+                </div>
             </div>
             <hr className="Divider" />
             <div className="Botones">

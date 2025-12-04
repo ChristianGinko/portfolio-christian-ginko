@@ -28,12 +28,15 @@ function Pokeapi () {
                 <p><span className="Negrita">Tipo:</span> API RESTful</p>
             </div>
             <hr className="Divider" />
-            <div className="Muestra">
-                <img src={listaPokemon} alt="listaPokemon" className="Cartel" />
-                <img src={listaLigas} alt="listaLigas" className="Cartel" />
-                <img src={listaTipos} alt="listaTipos" className="Cartel" />
-                <img src={datosPokemon} alt="datosPokemon" className="Cartel" />
-                <img src={datosTipo} alt="datosTipo" className="Cartel" />
+            <div className="TituloMuestra">
+                <span style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', fontSize: '25px', textDecoration: 'underline', alignSelf: 'center'}}>Imágenes de ejemplo</span>
+                <div className="Muestra">
+                    <img src={listaPokemon} alt="listaPokemon" className="Cartel" />
+                    <img src={listaLigas} alt="listaLigas" className="Cartel" />
+                    <img src={listaTipos} alt="listaTipos" className="Cartel" />
+                    <img src={datosPokemon} alt="datosPokemon" className="Cartel" />
+                    <img src={datosTipo} alt="datosTipo" className="Cartel" />
+                </div>
             </div>
             <hr className="Divider" />
             <div className="Botones">

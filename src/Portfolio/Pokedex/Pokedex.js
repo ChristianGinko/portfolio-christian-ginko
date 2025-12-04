@@ -27,11 +27,14 @@ function Pokedex () {
                 <p><span className="Negrita">Control de versiones:</span> GitHub</p>
             </div>
             <hr className="Divider" />
-            <div className="Muestra">
-                <img src={botoneraLigas} alt="botoneraLigas" className="Cartel" />
-                <img src={listaDePokemon} alt="listaDePokemon" className="Cartel" />
-                <img src={datosDePokemon} alt="datosDePokemon" className="Cartel" />
-                <img src={lugaresEncuentro} alt="lugaresEncuentro" className="Cartel" />
+            <div className="TituloMuestra">
+                <span style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', fontSize: '25px', textDecoration: 'underline', alignSelf: 'center'}}>Imágenes de ejemplo</span>
+                <div className="Muestra">
+                    <img src={botoneraLigas} alt="botoneraLigas" className="Cartel" />
+                    <img src={listaDePokemon} alt="listaDePokemon" className="Cartel" />
+                    <img src={datosDePokemon} alt="datosDePokemon" className="Cartel" />
+                    <img src={lugaresEncuentro} alt="lugaresEncuentro" className="Cartel" />
+                </div>
             </div>
             <hr className="Divider" />
             <div className="Botones">
