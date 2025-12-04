@@ -20,6 +20,13 @@ function Pokeapi () {
                 agilizar su aplicación para evitar tiempos de carga exageradamente largos.
             </p>
             <hr className="Divider" />
+            <div className="Atributos">
+                <span>Lenguaje: Java</span>
+                <span>Framework: Spring Boot</span>
+                <span>Control de versiones: GitHub</span>
+                <span>Tipo:</span> <span>API RESTful</span>
+            </div>
+            <hr className="Divider" />
             <div className="Muestra">
                 <img src={listaPokemon} alt="listaPokemon" className="Cartel" />
                 <img src={listaLigas} alt="listaLigas" className="Cartel" />

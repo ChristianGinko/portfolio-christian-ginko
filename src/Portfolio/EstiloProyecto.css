@@ -24,6 +24,13 @@
     padding-right: 1rem;
 }
 
+.Atributos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
 .Muestra {
     display: flex;
     flex-direction: row;
