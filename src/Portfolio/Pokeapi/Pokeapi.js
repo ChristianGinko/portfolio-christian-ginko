@@ -31,11 +31,26 @@ function Pokeapi () {
             <div className="TituloMuestra">
                 <span style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', fontSize: '25px', textDecoration: 'underline', alignSelf: 'center'}}>Imágenes de ejemplo</span>
                 <div className="Muestra">
-                    <img src={listaPokemon} alt="listaPokemon" className="Cartel" />
-                    <img src={listaLigas} alt="listaLigas" className="Cartel" />
-                    <img src={listaTipos} alt="listaTipos" className="Cartel" />
-                    <img src={datosPokemon} alt="datosPokemon" className="Cartel" />
-                    <img src={datosTipo} alt="datosTipo" className="Cartel" />
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lista pokémon</span>
+                        <img src={listaPokemon} alt="listaPokemon" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lista de ligas</span>
+                        <img src={listaLigas} alt="listaLigas" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lista de tipos</span>
+                        <img src={listaTipos} alt="listaTipos" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Datos según pokémon</span>
+                        <img src={datosPokemon} alt="datosPokemon" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Datos según tipo</span>
+                        <img src={datosTipo} alt="datosTipo" className="Cartel" />
+                    </div>
                 </div>
             </div>
             <hr className="Divider" />

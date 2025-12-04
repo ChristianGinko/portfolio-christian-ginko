@@ -26,8 +26,14 @@ function StarWars () {
             <div className="TituloMuestra">
                 <span style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', fontSize: '25px', textDecoration: 'underline', alignSelf: 'center'}}>Imágenes de ejemplo</span>
                 <div className="Muestra">
-                    <img src={splashStarWars} alt="splashStarWars" className="Cartel" />
-                    <img src={listaStarWars} alt="listaStarWars" className="Cartel" />
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Pantalla de presentación</span>
+                        <img src={splashStarWars} alt="splashStarWars" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lista de películas</span>
+                        <img src={listaStarWars} alt="listaStarWars" className="Cartel" />
+                    </div>
                 </div>
             </div>
             <hr className="Divider" />

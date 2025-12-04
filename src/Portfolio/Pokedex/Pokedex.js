@@ -30,10 +30,22 @@ function Pokedex () {
             <div className="TituloMuestra">
                 <span style={{fontFamily: 'Lucida Sans', fontStyle: 'italic', fontWeight: 'bold', fontSize: '25px', textDecoration: 'underline', alignSelf: 'center'}}>Imágenes de ejemplo</span>
                 <div className="Muestra">
-                    <img src={botoneraLigas} alt="botoneraLigas" className="Cartel" />
-                    <img src={listaDePokemon} alt="listaDePokemon" className="Cartel" />
-                    <img src={datosDePokemon} alt="datosDePokemon" className="Cartel" />
-                    <img src={lugaresEncuentro} alt="lugaresEncuentro" className="Cartel" />
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lista de ligas para elegir</span>
+                        <img src={botoneraLigas} alt="botoneraLigas" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lista pokémon por liga</span>
+                        <img src={listaDePokemon} alt="listaDePokemon" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Datos pokémon</span>
+                        <img src={datosDePokemon} alt="datosDePokemon" className="Cartel" />
+                    </div>
+                    <div className="ItemMuestra">
+                        <span style={{fontFamily: 'Arial', fontWeight: 'bold', fontSize: '18px', alignSelf: 'center'}}>Lugares de encuentro</span>
+                        <img src={lugaresEncuentro} alt="lugaresEncuentro" className="Cartel" />
+                    </div>
                 </div>
             </div>
             <hr className="Divider" />
