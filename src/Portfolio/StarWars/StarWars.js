@@ -15,6 +15,14 @@ function StarWars () {
                 un parseador hecho de forma manual, antes de aprender a utilizar Retrofit.
             </p>
             <hr className="Divider" />
+            <div className="Atributos">
+                <p className="NegritaTitulo">Detalles</p>
+                <p><span className="Negrita">Lenguaje:</span> Kotlin</p>
+                <p><span className="Negrita">Framework:</span> Jetpack Compose</p>
+                <p><span className="Negrita">Arquitectura:</span> MVVM</p>
+                <p><span className="Negrita">Control de versiones:</span> GitHub</p>
+            </div>
+            <hr className="Divider" />
             <div className="Muestra">
                 <img src={splashStarWars} alt="splashStarWars" className="Cartel" />
                 <img src={listaStarWars} alt="listaStarWars" className="Cartel" />

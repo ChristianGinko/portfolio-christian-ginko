@@ -18,6 +18,15 @@ function Pokedex () {
                 alguno en especial. La aplicación se encuentra en desarrollo con el objetivo de agregar más cosas y mejorar la experiencia del usuario.
             </p>
             <hr className="Divider" />
+            <div className="Atributos">
+                <p className="NegritaTitulo">Detalles</p>
+                <p><span className="Negrita">Lenguaje:</span> Kotlin</p>
+                <p><span className="Negrita">Framework:</span> Jetpack Compose</p>
+                <p><span className="Negrita">Arquitectura:</span> MVVM</p>
+                <p><span className="Negrita">Librerías:</span> Retrofit, Room</p>
+                <p><span className="Negrita">Control de versiones:</span> GitHub</p>
+            </div>
+            <hr className="Divider" />
             <div className="Muestra">
                 <img src={botoneraLigas} alt="botoneraLigas" className="Cartel" />
                 <img src={listaDePokemon} alt="listaDePokemon" className="Cartel" />

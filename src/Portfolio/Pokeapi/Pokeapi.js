@@ -21,10 +21,11 @@ function Pokeapi () {
             </p>
             <hr className="Divider" />
             <div className="Atributos">
-                <span>Lenguaje: Java</span>
-                <span>Framework: Spring Boot</span>
-                <span>Control de versiones: GitHub</span>
-                <span>Tipo:</span> <span>API RESTful</span>
+                <p className="NegritaTitulo">Detalles</p>
+                <p><span className="Negrita">Lenguaje:</span> Java</p>
+                <p><span className="Negrita">Framework:</span> Spring Boot</p>
+                <p><span className="Negrita">Control de versiones:</span> GitHub</p>
+                <p><span className="Negrita">Tipo:</span> API RESTful</p>
             </div>
             <hr className="Divider" />
             <div className="Muestra">
